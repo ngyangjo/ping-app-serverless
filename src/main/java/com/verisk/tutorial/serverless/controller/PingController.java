@@ -15,12 +15,12 @@ import com.verisk.tutorial.serverless.model.Message;
 public class PingController {
 
 	@GetMapping("/ping")
-	public Message ping(HttpServletRequest request) throws UnknownHostException {
+	public Message ping(HttpServletRequest request) {
 		return new Message("Pong");
 	}
 	
 	@GetMapping("/hello")
-	public Message hello() throws UnknownHostException {
+	public Message hello() {
 		return new Message("Hello AWS Workshop");
 	}
 }

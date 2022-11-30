@@ -1,4 +1,5 @@
-Run the project using mvn clean package. Make sure the ping-app-serverless-0.1.jar is built inside the target folder
+Build the project using 'mvn clean package' command. 
+Make sure the ping-app-serverless-0.1.jar is built inside the target folder.
 
 Once the jar is ready, go to AWS Console and follow the steps to deploy the Jar to Lambda
 
